@@ -3,66 +3,247 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- Nromalize CSS for all type of browsers -->
-    <link rel="stylesheet" href="../styles/normalize.css" />
+    <title>Swimming</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/styles.css" />
-    <!-- icons -->
+    <link
+      rel="shortcut icon"
+      href="../img/ironmanLogo.png"
+      type="image/x-icon"
+    />
+    <!-- ICONS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
-  <body class="bodySwimming"></body>
-  <body>
-    <!-- !Header -->
-    <header>
-      <div class="menuContainer">
-        <nav>
-          <ul>
-            <li><a class="colorB" href="../index.html">Home</a></li>
-            <li><a href="swimming.html">Swimming</a></li>
-            <li><a href="cycling.html">Cycling</a></li>
-            <li><a href="running.html">Running</a></li>
-            <li><a class="colorB" href="contactUs.html">Contact Us</a></li>
+
+  <body class="container-fluid section2">
+    <!-- *Header -->
+    <header class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            class="logoSwim"
+            src="../img/ironmanLogo.png"
+            alt="Logo ironman"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fuentes">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="swimming.html">Swimming</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cycling.html">Cycling</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="running.html">Running</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">Contact Us</a>
+            </li>
           </ul>
         </nav>
       </div>
+
+      <!-- *PRRODUCTS CARDS -->
     </header>
-    <!-- !Footer -->
-    <footer>
-      <div class="footer-content">
-        <h3>top sport</h3>
-        <p>
-          Becoming an IRONMAN for the first time is a life-changing experience.
-          Our Become One program helps first-timers get the most out of their
-          journey, with resources, support, and all the high-fives.
-        </p>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-        </ul>
-        <div class="footer-bottom">
-          <p>
-            copyright &copy;2023 designed by <span>Alejandro Bautista</span>
-          </p>
+    <div class="titulosProductos mt-1">
+      <h2>Swimming Products</h2>
+    </div>
+
+    <!-- Fila 1 -->
+    <div class="row">
+      <!-- Card1 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim1.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Women Swimsuit</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
         </div>
       </div>
+
+      <!-- Card2 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim2.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Men Swimsuit</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card3 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim3.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Men Swimsuit</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card4 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim4.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Goggles</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fila 2 -->
+    <div class="row">
+      <!-- Card5 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim5.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Goggles</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card6 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim6.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Swimming Cap</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card7 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim1.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Men Swimsuit</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card8 -->
+      <div class="col-xl-3 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img
+            src="../img/swim4.webp"
+            class="card-img-top"
+            alt="Swimming Product"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Goggles</h3>
+            <p class="card-text">Gear Up For Anything</p>
+            <a href="#" class="btn colorBtn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- !Footer -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">
+        &copy; 2023 Alejandro Bautista, Top Sport Inc
+      </p>
     </footer>
-    <!-- !Termina Footer -->
+
+    <!-- *Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+
+<!-- MINUTO 15:03 -->

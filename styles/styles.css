@@ -1,250 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 /* !general */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* !body */
-body{
-    padding: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background-color: gray;
+body {
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: gray;
 }
 
 /* *Section 1 */
 /* !Header */
-header{
-    position: absolute;
-    z-index: 1;
+header {
+  position: absolute;
+  z-index: 1;
 }
 
 /* !Menu de Navegacion */
-.menuContainer{
-    display: flex;
-    flex-direction: column;
-    padding: 15rem 3rem;
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15rem 3rem;
 }
 
-.menuContainer li{
-    margin: 40px 0;
-    list-style: none;
+.menuContainer li {
+  margin: 40px 0;
+  list-style: none;
 }
 
-.menuContainer li .colorB{
-    color: black;
+.menuContainer li .colorB {
+  color: black;
 }
 
-.menuContainer li a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    transition: color .4s ease-in-out;
+.menuContainer li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  transition: color 0.4s ease-in-out;
 }
 
-.menuContainer li:hover a{
-    color: rgb(153, 194, 194);
+.menuContainer li:hover a {
+  color: rgb(153, 194, 194);
 }
-
 
 /* !Carrito de compras*/
-.cart{
-    position: absolute;
-    width: 1.5rem;
-    z-index: 1;
-    display: flex;
-    top: 0;
-    right: 0;
-    margin-right: 1.3rem;
-    margin-top: 1.4rem;
-   
+.cart {
+  position: absolute;
+  width: 1.5rem;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  right: 0;
+  margin-right: 1.3rem;
+  margin-top: 1.4rem;
 }
 
-
 /* !Contenedor del centro */
-.imgFondo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/foto1.png);
-    background-size: auto;
-    background-position: center;
+.imgFondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/foto1.png);
+  background-size: auto;
+  background-position: center;
 }
 
 /* ! Contenedor Texto Centrado */
-.textContainer{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: auto;
+.textContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
 }
 
-.textContainer h2{
-    margin-top: 1vw;
-    font-size: 2.5rem;
-    text-transform: capitalize;
+.textContainer h2 {
+  margin-top: 1vw;
+  font-size: 2.5rem;
+  text-transform: capitalize;
 }
 
-.textContainer p{
-    margin-top: 10vw;
-    font-size: 1.5rem;
-    text-transform: capitalize;
+.textContainer p {
+  margin-top: 10vw;
+  font-size: 1.5rem;
+  text-transform: capitalize;
 }
 /* !Termina Contenedor Texto Centrado */
 
-/* !Footer */
-footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #111;
-    height: 10vw;
-    width: 100vw;
-    font-family: "Open Sans";
-    color: white;
-    padding-top: 20px;
-}
-
-.footer-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 2rem;
-    text-transform: capitalize;
-}
-
-.footer-content p{
-    max-width: 500px;
-    margin: 5px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
-.socials{
-    list-style: none;
-    display: flex;
-    margin: .5rem 0 3rem 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.socials li{
-    margin: 0 10px;
-}
-
-.socials a{
-    text-decoration: none;
-    color: white;
-}
-
-.socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease-in-out;
-}
-
-.socials a:hover i{
-    color: aqua;
-}
-
-.footer-bottom{
-    background-color: #000;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-
-.footer-bottom span{
-    opacity: .4;
-    font-weight: 200;
-}
-/* !Aqui termina el footer */
-
 /* *Termina Section 1 */
 
-
 /* *Background Section 2,3 and 4 Contact Us */
-.bodySwimming, .bodyCycling, .bodyRunning {
-    background-image: url(../img/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--pale-blue);
-    font-size: 16px;
-    font-family: "Red Hat Display", sans-serif;
+.bodySwimming,
+.bodyCycling,
+.bodyRunning {
+  background-image: url(../img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--pale-blue);
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* *Section 2 Swimming */
+/* Header */
+.logoSwim {
+  width: 9rem;
+}
+
+.section2 header {
+  border-bottom: 1px solid #c1101a;
+}
+
+.fuentes {
+  font-size: 1.3rem;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fuentes li a:hover {
+  background-color: azure;
+  color: #111;
+}
+
+/* PRODUCTS */
+.titulosProductos {
+  background-color: azure;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.titulosProductos h2 {
+  font-size: 2.5rem;
+}
+
+.colorBtn {
+  background-color: #c1101a;
+  color: #fff;
+}
+
+.colorBtn:hover {
+  background-color: #c12923;
+}
+
+.card {
+  margin: 0.5rem;
 }
 
 /* *Section 5 */
 .bodyContact {
-    background-color: gray;
-    background-image: url(../img/contactus.jpg);
-    background-size: cover;
-    font-size: 16px;
-    font-family: "Red Hat Display", sans-serif;
+  background-color: gray;
+  background-image: url(../img/contactus.jpg);
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
 }
 
-.h2Contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    font-size: 3rem;
+.h2Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-size: 3rem;
 }
 
-.formSec{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 20px 40%;
-    width: 600px;
+.formSec {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40%;
+  width: 600px;
 }
 
-.formSec div input{
-    margin-top: 40px;
-    width: 500px;
-    height: 35px;
-    border-radius: 5px;
+.formSec div input {
+  margin-top: 40px;
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
 }
 
-.formSec div textarea{
-    height: 100px;
-    width: 550px;
-    margin-top: 40px;
-    border-radius: 5px;
+.formSec div textarea {
+  height: 100px;
+  width: 550px;
+  margin-top: 40px;
+  border-radius: 5px;
 }
 
-
-.formSec button{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    width: 80px;
-    border-radius: 10px;
+.formSec button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  border-radius: 10px;
 }
 
-.buttons{
-    display: flex;
-    align-items: flex-start;
+.buttons {
+  display: flex;
+  align-items: flex-start;
 }
 
-.buttons button:first-of-type{
-    margin-right: 5px;
+.buttons button:first-of-type {
+  margin-right: 5px;
 }
 
 /* *Termina Section 5 Contact Us */
