@@ -15,7 +15,7 @@ body {
   padding: 0px;
   font-family: sans-serif;
   box-sizing: border-box;
-  background-color: gray;
+  background-color: #fff;
 }
 
 /* *Section 1 */
@@ -119,7 +119,9 @@ header {
 }
 
 .section2 header {
-  border-bottom: 1px solid #c1101a;
+  border-bottom: 5px solid #c1101a;
+  margin-bottom: 5px;
+  background-color: #ffffff;
 }
 
 .fuentes {
@@ -130,13 +132,19 @@ header {
 }
 
 .fuentes li a:hover {
-  background-color: azure;
-  color: #111;
+  background-color: grey;
+  color: white;
+}
+
+/* CAROUSEL */
+.imgCarousel {
+  height: 400px;
+  object-fit: cover;
 }
 
 /* PRODUCTS */
 .titulosProductos {
-  background-color: azure;
+  background-color: lightblue;
   color: #111;
   text-align: center;
   text-transform: uppercase;
@@ -162,59 +170,29 @@ header {
 }
 
 /* *Section 5 */
-.bodyContact {
-  background-color: gray;
-  background-image: url(../img/contactus.jpg);
-  background-size: cover;
-  font-size: 16px;
-  font-family: "Red Hat Display", sans-serif;
-}
 
-.h2Contact {
+.tituloContact {
   display: flex;
   justify-content: center;
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding: 3rem;
+}
+
+.contactInfo {
+  margin-bottom: 5rem;
+}
+
+.footerContact {
+  display: flex;
   align-items: center;
-  margin-top: 150px;
-  font-size: 3rem;
-}
-
-.formSec {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  margin: 20px 40%;
-  width: 600px;
-}
-
-.formSec div input {
-  margin-top: 40px;
-  width: 500px;
-  height: 35px;
-  border-radius: 5px;
-}
-
-.formSec div textarea {
-  height: 100px;
-  width: 550px;
-  margin-top: 40px;
-  border-radius: 5px;
-}
-
-.formSec button {
-  margin-top: 30px;
-  display: flex;
   justify-content: center;
-  width: 80px;
-  border-radius: 10px;
-}
-
-.buttons {
-  display: flex;
-  align-items: flex-start;
-}
-
-.buttons button:first-of-type {
-  margin-right: 5px;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* *Termina Section 5 Contact Us */
