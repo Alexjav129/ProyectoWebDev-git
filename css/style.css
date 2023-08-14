@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-
 /* !general */
-*,
-*::before,
-*::after {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+*::before, *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,12 +14,11 @@
 }
 
 /* *Section 1 */
-
 /* Shopping Cart */
 .imgCart {
   width: 2rem;
+  transition: all 0.5s;
 }
-
 .imgCart:hover {
   width: 2.5rem;
 }
@@ -25,19 +27,17 @@
 footer ul li a:hover {
   background-color: aliceblue;
 }
-
 footer span {
   color: #111;
   font-weight: bold;
 }
-
 footer span:hover {
   text-decoration: underline;
 }
 
 /* *Section 2,3,4 Sports */
-
-/* Header */
+/* Header for sections */
+/* Header for sections */
 .logoSwim {
   width: 9rem;
 }
@@ -54,18 +54,22 @@ footer span:hover {
   text-transform: uppercase;
   font-weight: bold;
 }
-
+.fuentes li a {
+  transition: all 0.4s ease-in-out;
+}
 .fuentes li a:hover {
-  background-color: grey;
+  background-color: gray;
   color: white;
 }
 
+/* CAROUSEL */
 /* CAROUSEL */
 .imgCarousel {
   height: 400px;
   object-fit: cover;
 }
 
+/* PRODUCTS */
 /* PRODUCTS */
 .titulosProductos {
   background-color: lightblue;
@@ -75,16 +79,16 @@ footer span:hover {
   font-weight: bold;
   padding: 1rem;
 }
-
 .titulosProductos h2 {
   font-size: 2.5rem;
 }
 
 .colorBtn {
+  text-decoration: none;
   background-color: #c1101a;
-  color: #fff;
+  color: white;
+  transition: all 0.5s ease-in-out;
 }
-
 .colorBtn:hover {
   background-color: #c12923;
 }
@@ -94,12 +98,11 @@ footer span:hover {
 }
 
 /* *Section 5 */
-
 .tituloContact {
   display: flex;
   justify-content: center;
   background-color: #111;
-  color: #fff;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 5rem;
@@ -118,3 +121,5 @@ footer span:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*# sourceMappingURL=style.css.map */

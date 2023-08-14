@@ -1,0 +1,26 @@
+@import "fuentes";
+@import "general";
+@import "variables";
+
+// !Section1
+/* *Section 1 */
+@import "cart.scss";
+@import "footerHover";
+
+// !Section 2,3,4
+/* *Section 2,3,4 Sports */
+
+/* Header for sections */
+@import "headerSections";
+
+/* CAROUSEL */
+@import "carousel";
+
+/* PRODUCTS */
+@import "products";
+
+// !Section5
+/* *Section 5 */
+@import "tituloContact";
+
+@import "footerContact";

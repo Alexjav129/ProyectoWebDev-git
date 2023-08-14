@@ -1,0 +1,10 @@
+/* Shopping Cart */
+
+.imgCart {
+  width: 2rem;
+  transition: all 0.5s;
+
+  &:hover {
+    width: 2.5rem;
+  }
+}

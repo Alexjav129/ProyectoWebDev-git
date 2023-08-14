@@ -1,0 +1,32 @@
+/* PRODUCTS */
+@mixin anclasProductos {
+  text-decoration: none;
+  background-color: $color-rojo-1;
+  color: $color-blanco-2;
+}
+
+.titulosProductos {
+  background-color: $color-azul-1;
+  color: $color-negro-1;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.colorBtn {
+  @include anclasProductos;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    background-color: $color-rojo-2;
+  }
+}
+
+.card {
+  margin: 0.5rem;
+}

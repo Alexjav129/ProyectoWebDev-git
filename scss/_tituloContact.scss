@@ -1,0 +1,14 @@
+.tituloContact {
+  display: flex;
+  justify-content: center;
+  background-color: $color-negro-1;
+  color: $color-blanco-2;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding: 3rem;
+}
+
+.contactInfo {
+  margin-bottom: 5rem;
+}

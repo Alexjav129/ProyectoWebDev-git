@@ -1,0 +1,16 @@
+/* Footer hover */
+
+footer {
+  ul li a:hover {
+    background-color: aliceblue;
+  }
+
+  span {
+    color: $color-negro-1;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

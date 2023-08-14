@@ -1,0 +1,26 @@
+/* Header for sections */
+
+.logoSwim {
+  width: 9rem;
+}
+
+.section2 header {
+  border-bottom: 5px solid $color-rojo-1;
+  margin-bottom: 5px;
+  background-color: $color-blanco-1;
+}
+.fuentes {
+  font-size: 1.3rem;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  li a {
+    transition: all 0.4s ease-in-out;
+  }
+
+  li a:hover {
+    background-color: $color-gris-1;
+    color: $color-blanco-2;
+  }
+}
