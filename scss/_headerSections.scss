@@ -19,7 +19,7 @@
     transition: all 0.4s ease-in-out;
   }
 
-  li a:hover {
+  & a:hover {
     background-color: $color-gris-1;
     color: $color-blanco-2;
   }
