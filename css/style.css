@@ -130,6 +130,18 @@ footer span:hover {
   margin-bottom: 5rem;
 }
 
+.textLabel {
+  margin-top: 1.5rem;
+}
+
+textarea {
+  margin-top: 0.4rem;
+  width: 100%;
+  border-radius: 5px;
+  border-color: lightgrey;
+  resize: none;
+}
+
 .buttonContact {
   margin-top: 35px;
   margin-right: 1rem !important;

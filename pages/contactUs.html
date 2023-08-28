@@ -122,7 +122,6 @@
             class="form-control mb-4"
             id="username"
             placeholder="Username"
-            required
           />
           <div class="invalid-feedback">Your username is required.</div>
         </div>
@@ -136,11 +135,19 @@
           class="form-control"
           id="email"
           placeholder="you@example.com"
+          required
         />
         <div class="invalid-feedback">
           Please enter a valid email address for shipping updates.
         </div>
       </div>
+
+      <!-- Text Area -->
+      <div class="text col-6 m-lg-auto">
+        <label class="textLabel" for="text">Message</label>
+        <textarea name="text" id="text" rows="4" required></textarea>
+      </div>
+
       <!-- Button -->
       <div class="col-6 m-lg-auto">
         <button class="buttonContact" type="submit">Send</button>
