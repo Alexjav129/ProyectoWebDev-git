@@ -101,6 +101,9 @@ footer span:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.6s ease-in-out;
 }
+.card h3 {
+  font-size: 1.7rem;
+}
 .card:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
