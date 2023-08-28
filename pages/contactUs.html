@@ -83,7 +83,18 @@
     </div>
 
     <!-- *CONTACT INFO -->
-    <form class="contactInfo">
+    <form
+      action="https://formsubmit.co/alexjav.12notability@gmail.com"
+      method="POST"
+      class="contactInfo"
+    >
+      <!-- Subject of the email -->
+      <input
+        type="hidden"
+        name="_subject"
+        value="New submission on TopSport!"
+      />
+
       <!-- First Name -->
       <div class="col-sm-6 mb-5 m-lg-auto">
         <label for="firstName" class="form-label">First name</label>
@@ -94,6 +105,7 @@
           placeholder="Type your First Name"
           value=""
           required
+          name="First Name"
         />
         <div class="invalid-feedback">Valid first name is required.</div>
       </div>
@@ -108,6 +120,7 @@
           placeholder="Type your Last Name"
           value=""
           required
+          name="Last Name"
         />
         <div class="invalid-feedback">Valid last name is required.</div>
       </div>
@@ -122,6 +135,7 @@
             class="form-control mb-4"
             id="username"
             placeholder="Username"
+            name="Username"
           />
           <div class="invalid-feedback">Your username is required.</div>
         </div>
@@ -136,6 +150,7 @@
           id="email"
           placeholder="you@example.com"
           required
+          name="Email"
         />
         <div class="invalid-feedback">
           Please enter a valid email address for shipping updates.
@@ -145,7 +160,13 @@
       <!-- Text Area -->
       <div class="text col-6 m-lg-auto">
         <label class="textLabel" for="text">Message</label>
-        <textarea name="text" id="text" rows="4" required></textarea>
+        <textarea
+          name="text"
+          id="text"
+          rows="4"
+          required
+          name="Message"
+        ></textarea>
       </div>
 
       <!-- Button -->
